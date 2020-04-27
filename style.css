@@ -72,6 +72,36 @@ img {
   clear: both;
 }
 
+/* RESPONSIVE TABLET */
+@media screen and (max-width: 768px) {
+  body {
+    background: lightgrey;
+    font-family: sans-serif;
+  }
+
+  .row {
+    width: 95%;
+    margin: 50px 0;
+    padding: 0 10px 20px 10px;
+  }
+
+  #lezioni .row {
+    margin: 0;
+  }
+
+  .container.grey {
+    border-radius: 10px;
+  }
+
+  img {
+    height: 130px;
+  }
+  h1 {
+    padding: 30px 0;
+  }
+}
+/* FINE RESPONSIVE TABLET */
+
 /* RESPONSIVE MOBILE */
 @media screen and (max-width: 419px) {
   body {
