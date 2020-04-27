@@ -85,7 +85,7 @@ img {
   }
 
   img {
-    height: 100px;
+    height: 70px;
   }
 
   hr {
@@ -102,6 +102,7 @@ img {
 
   h3 {
     height: 50px;
+    border-bottom: 2px solid lightgrey;
   }
 
   #why .row>.first,
@@ -115,7 +116,7 @@ img {
   #why .row>.first img,
   #why .row>.second img,
   #why .row>.third img{
-    height: 50px;
+    height: 30px;
   }
 
   #why .row>.second {
